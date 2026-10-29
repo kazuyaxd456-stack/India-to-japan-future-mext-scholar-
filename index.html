@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>India vs Japan Guide</title>
+<style>
+body{background:#0a0a0a;color:#fff;font-family:Arial;padding:15px;margin:0}
+h1{text-align:center;color:#00D1FF;margin:10px}
+.sub{text-align:center;color:#888;font-size:13px;margin-bottom:15px}
+.buttons{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:15px 0}
+button{flex:1;min-width:100px;padding:14px;border:none;border-radius:12px;font-weight:bold;color:white;font-size:14px}
+.b1{background:#b33a3a} .b2{background:#3a5a8b} .b3{background:#2e8b57}
+.card{border-radius:14px;padding:15px;margin:12px 0;line-height:1.5}
+.ind{background:#231515;border-left:5px solid #ff6b6b}
+.jpn{background:#15231a;border-left:5px solid #6bff8a}
+.sol{background:#151a33;border-left:5px solid #00D1FF;color:#a0d8ff}
+.title{font-weight:bold;font-size:16px;margin-bottom:8px}
+hr{border:none;border-top:1px dashed #333;margin:12px 0}
+</style>
+</head>
+<body>
+
+<h1>🇮🇳 vs 🇯🇵 GUIDE</h1>
+<div class="sub">Your Python project now LIVE as website</div>
+
+<div class="buttons">
+<button class="b1" onclick="festival()">Festival</button>
+<button class="b2" onclick="school()">School</button>
+<button class="b3" onclick="etiquettes()">Etiquettes</button>
+</div>
+
+<div id="output">
+<div class="card sol">
+<b>Welcome! 🙏</b><br>
+This is your Python project made into website.<br><br>
+Click Festival / School / Etiquettes above to see comparison.
+</div>
+</div>
+
+<script>
+function festival(){
+document.getElementById("output").innerHTML = `
+<div class="card" style="background:#111;text-align:center"><b>🎌 FESTIVAL COMPARISON</b></div>
+<div class="card ind"><div class="title">🇮🇳 INDIA - Diwali / Teej / Baisakhi</div>
+Morning: Touch feet, Clean house, Rangoli<br>
+Afternoon: New clothes, Mandir, Loud Dhol, Mithai<br>
+Night: Diyas, Crackers till 2 AM<br><br>
+<b>PROBLEM:</b> Loud cracker in Japan = Police!</div>
+<div class="card jpn"><div class="title">🇯🇵 JAPAN - Oshogatsu / Obon / Hanami</div>
+Morning: Ohayo, Silent Osoji cleaning, Shrine in Kimono<br>
+Afternoon: Quiet Osechi bento, No loud music<br>
+Night: No crackers, Sleep at 10 PM<br><br>
+<b>SOLUTION:</b> Same respect, SILENT form. Diya inside room only.</div>
+`;
+}
+
+function school(){
+document.getElementById("output").innerHTML = `
+<div class="card" style="background:#111;text-align:center"><b>🏫 SCHOOL DISCIPLINE COMPARISON</b></div>
+<div class="card ind"><div class="title">🇮🇳 INDIA</div>
+Reach 8 AM, Good Morning Sir, Proxy works<br>
+Can eat tiffin if teacher not seeing, Sweeper cleans<br>
+Late excuse: Sir traffic tha</div>
+<div class="card jpn"><div class="title">🇯🇵 JAPAN</div>
+Reach 7:50 sharp, Change to Uwabaki indoor shoes<br>
+Bow 30 degree, Stand & say Hai to answer<br>
+YOU clean toilet & class daily (Osoji)<br>
+Late 1 min = Official report</div>
+<div class="card sol"><b>SOLUTION:</b> Ram Ram = Bow, Chappal outside = Genkan</div>
+`;
+}
+
+function etiquettes(){
+document.getElementById("output").innerHTML = `
+<div class="card" style="background:#111;text-align:center"><b>🌅 MORNING & NIGHT ROUTINE</b></div>
+<div class="card ind"><div class="title">🇮🇳 HARYANA HOME</div>
+Morning: Mummy shouts, Tea in bed, Shoes anywhere<br>
+Night: Loud dinner, Plates in sink for mummy, Phone till 1 AM<br><br>
+It
